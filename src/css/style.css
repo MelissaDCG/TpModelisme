@@ -1,0 +1,25 @@
+.heroImage {
+   background-image: url("../images/theme/mobile.jpg") !important;
+   background-color: black !important;
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+
+.navbar {
+    background: transparent !important;
+}
+
+.titre, .bgBlue {
+   background-color: cadetblue !important;        
+}
+
+@media screen and (min-width : 992px) {
+   .heroImage {
+      background-image: url("../images/theme/cover.jpg") !important;
+   }
+}
