@@ -34,3 +34,4 @@ $orders = $query->fetchAll(PDO::FETCH_ASSOC);
 
 $template = "templates/index";
 include 'layout.php';
+?>

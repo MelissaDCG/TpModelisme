@@ -1,5 +1,5 @@
 <div>
-    <img src="images/theme/banner.jpg" alt="banner" class="w-100">   
+    <img src="images/theme/banner.jpg" alt="banner" class="w-100 h-25">   
 </div>
 <div class="container">
     <div class="titre p-2 my-2 rounded">
@@ -71,12 +71,3 @@
         </div>
     </form>
 </div>
-<style>
-    .navbar { 
-        background-color:cadetblue !important; 
-    } 
-    .titre {
-        background-color: cadetblue !important;
-        
-    }
-</style>

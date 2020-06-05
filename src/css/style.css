@@ -9,17 +9,36 @@
    position: relative;
  }
 
-
-.navbar {
-    background: transparent !important;
+.navbar { 
+   background-color:cadetblue !important; 
 }
 
 .titre, .bgBlue {
    background-color: cadetblue !important;        
 }
 
+.logo {
+   width: 120px;
+}
+
+.adminOption:hover{
+        border: 2px solid #252525;
+}
+
+.banner {
+   height: 200px;
+}
+
 @media screen and (min-width : 992px) {
    .heroImage {
       background-image: url("../images/theme/cover.jpg") !important;
+   }
+
+   .logo {
+      width: 150px;
+   }
+
+   .banner {
+      height: 250px;
    }
 }

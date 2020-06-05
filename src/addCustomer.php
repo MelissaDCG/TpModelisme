@@ -33,10 +33,12 @@
         );
 
 
-        $query->execute([$_POST["customerName"], $_POST["contactLastName"], $_POST["contactFirstName"], 
-                        $_POST["phone"], $_POST["address1"], $_POST["address2"], 
-                        $_POST["city"], $_POST["state"], $_POST["postalCode"], 
-                        $_POST["country"], $_POST["employee"], $_POST["creditLimit"]]);
+        $query->execute([htmlspecialchars($_POST["customerName"]), htmlspecialchars($_POST["contactLastName"]), 
+                        htmlspecialchars($_POST["contactFirstName"]), htmlspecialchars($_POST["phone"]), 
+                        htmlspecialchars($_POST["address1"]), htmlspecialchars($_POST["address2"]), 
+                        htmlspecialchars($_POST["city"]), htmlspecialchars($_POST["state"]), 
+                        htmlspecialchars($_POST["postalCode"]), htmlspecialchars($_POST["country"]), 
+                        $_POST["employee"], $_POST["creditLimit"]]);
                         
         //returner au formulaire de bons de commande
         header('Location: addBons.php');

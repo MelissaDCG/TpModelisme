@@ -2,7 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>PHP</title>
+
     <link rel="stylesheet" href="css/style.css">
 
     <!-- cdn bootstrap -->
@@ -12,13 +15,13 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
 
     <!-- JS -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 
 </head>
-<body>
+<body class="w-100 p-0 m-0">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-0 m-0">
-            <a class="navbar-brand" href="index.php"><img src="images/logo/logoWhite.png" alt="logo" class="w-50"></a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo/logoWhite.png" alt="logo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,9 +36,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="commandes.php">Liste de Commandes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="controlStock.php">Control de Stock</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="admin.php">Administrateur</a>

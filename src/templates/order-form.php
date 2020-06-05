@@ -2,11 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP</title>
     <link rel="stylesheet" href="css/order-form.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section>
+
+        <img src="images/logo/logoBlack.png" alt="logo" class="logo">
         <h1>Bons de commande</h1>
 
         <a href="index.php">Retourner à l'accueil</a>
