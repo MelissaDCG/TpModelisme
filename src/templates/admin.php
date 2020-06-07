@@ -11,31 +11,31 @@
         </div>
         <div class="col-6 col-md-4 d-flex justify-content-center">
             <div class="bgBlue text-center p-2  w-75 rounded m-2 adminOption">
-                <a href="editCustomer.php" class="btn"><i class="fas fa-user-edit fa-5x text-white"></i></a>
+                <a href="#" class="btn"><i class="fas fa-user-edit fa-5x text-white"></i></a>
                 <h3 class="text-white">Modifier client</h3>
             </div> 
         </div>
         <div class="col-6 col-md-4 d-flex justify-content-center">
             <div class="bgBlue text-center p-2  w-75 rounded m-2 adminOption">
-                <a href="addEmployee.php" class="btn"><i class="far fa-id-badge fa-5x text-white"></i></a>
+                <a href="#" class="btn"><i class="far fa-id-badge fa-5x text-white"></i></a>
                 <h3 class="text-white">Ajouter employé</h3>
             </div>
         </div> 
         <div class="col-6 col-md-4 d-flex justify-content-center">
             <div class="bgBlue text-center p-2  w-75 rounded m-2 adminOption">
-                <a href="editEmployee.php" class="btn"><i class="far fa-edit fa-5x text-white"></i></a>
+                <a href="#" class="btn"><i class="far fa-edit fa-5x text-white"></i></a>
                 <h3 class="text-white">Modifier employé</h3>
             </div>.
         </div>
         <div class="col-6 col-md-4 d-flex justify-content-center">
             <div class="bgBlue text-center p-2  w-75 rounded m-2 adminOption">
-                <a href="addProduit.php" class="btn"><i class="fas fa-car-side fa-5x text-white"></i></a>
+                <a href="#" class="btn"><i class="fas fa-car-side fa-5x text-white"></i></a>
                 <h3 class="text-white">Ajouter produit</h3>
             </div>
         </div>
         <div class="col-6 col-md-4 d-flex justify-content-center">
             <div class="bgBlue text-center p-2  w-75 rounded m-2 adminOption">
-                <a href="modifierProduit.php" class="btn"><i class="fas fa-car-crash fa-5x text-white"></i></a>
+                <a href="#" class="btn"><i class="fas fa-car-crash fa-5x text-white"></i></a>
                 <h3 class="text-white">Modifier produit</h3>
             </div>
         </div>
